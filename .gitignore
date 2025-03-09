@@ -1,0 +1,53 @@
+# Node.js files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables (if using .env files)
+.env
+
+# Build files
+build/
+frontend/build/
+/dist
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Mac directories
+.DS_Store
+
+# Windows directories
+Thumbs.db
+ehthumbs.db
+
+# Cache directories
+.cache/
+
+# Dependency directories
+.bazel/
+.bazelrc.local
+.npm/
+.pnpm/
+.pnpm-lock.yaml
+pnpmfile.js
+shrinkwrap.yaml
+
+# Optional: If using TypeScript
+*.tsbuildinfo
+
+

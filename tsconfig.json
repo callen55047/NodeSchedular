@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "target": "es2023",
+    "module": "es2022",
+    "moduleResolution": "Node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "strict": true,
+    "outDir": "dist",
+    "typeRoots": [
+      "./types",
+      "node_modules/@types"
+    ],
+    "strictNullChecks": true,
+    "allowJs": true
+  },
+  "lib": ["es2023"],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "module": "NodeNext"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+version: 1.0
+runtime: nodejs18
+
+build:
+  commands:
+    build:
+      - cd frontend && npm install && npm run build
+      - npm install && NODE_OPTIONS="--max-old-space-size=4096" npx tsc
+run:
+  command: node dist/app.js
